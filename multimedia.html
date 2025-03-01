@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Multimedia Embedding</h1>
+
+    <h2>Self hosted video</h2>
+    <video controls muted loop playsinline preload="metadata" poster="media/poster.webp">
+        <source src="media/solar-system.mp4" />
+        <track kind="captions" srclang="en" src="media/solar-system.vtt" label="English" default>
+    </video>
+    <h2>You tube video</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/05_3lhoyK8c?si=LQs8e2f-mExMRb2_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+    </iframe>
+
+    <h2>Audio</h2>
+            <audio controls>
+        <source src="media/waiting_for_a_train.ogg">    
+        <source src="media/waiting_for_a_train.mp3">
+        
+    </audio>
+</body>
